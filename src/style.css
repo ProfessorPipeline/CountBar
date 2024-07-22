@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial;
+  background-color: #131313;
+  color: #B23B3B;
+}
+
+#messageBox {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #131313;
+
+  /* Fade transition */
+  -webkit-transition: all 0.8s ease-in-out;
+  -moz-transition: all 0.8s ease-in-out;
+  -ms-transition: all 0.8s ease-in-out;
+  -o-transition: all 0.8s ease-in-out;
+  transition: all 0.8s ease-in-out;
+}
+
+#message {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-size: 130px;
+  width: 950px;
+  font-weight: bold;
+}
+
+.hidden {
+  -webkit-opacity: 0;
+  -moz-opacity: 0;
+  opacity: 0;
+}
+
+#main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 570px;
+  height: 190px;
+  /*background-color: blue;*/
+}
+
+#age {
+  font-size: 180px;
+  line-height: 140px;
+}
+
+#rest {
+  font-size: 59px;
+}
+
+#border {
+  border: 3px solid #B23B3B;
+  width: 554px;
+  height: 18px;
+  margin: 10px 0 0 4px;
+}
+
+#progress {
+  background-color: #B23B3B;
+  height: 18px;
+}
+
+#btns, #okBtn {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#btns a {
+  color: #B23B3B;
+  text-decoration: none;
+}
+
+#btns a:hover, #okBtn:hover {
+  text-decoration: underline;
+}
+
+#configBox {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 570px;
+  height: 190px;
+  background-color: #181818;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+input {
+  width: 300px;
+  height: 40px;
+  font-size: 16px;
+  border: 1px solid #131313;
+}
+
+small {
+  font-size: 13px;
+}
