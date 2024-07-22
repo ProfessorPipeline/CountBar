@@ -3,7 +3,7 @@ body {
   padding: 0;
   font-family: "Helvetica Neue", Helvetica, Arial;
   background-color: #000000;
-  color: #B23B3B;
+  color: #017201;
 }
 
 #messageBox {
@@ -12,14 +12,14 @@ body {
   right: 0;
   bottom: 0;
   left: 0;
-  background-color: #522b2b;
+  background-color: #000000;
 
   /* Fade transition */
-  -webkit-transition: all 2s ease-in-out;
-  -moz-transition: all 2s ease-in-out;
-  -ms-transition: all 2s ease-in-out;
+  -webkit-transition: all 4s ease-in-out;
+  -moz-transition: all 4s ease-in-out;
+  -ms-transition: all 4s ease-in-out;
   -o-transition: all 4s ease-in-out;
-  transition: all 5s ease-in-out;
+  transition: all 4s ease-in-out;
 }
 
 #message {
@@ -60,14 +60,14 @@ body {
 }
 
 #border {
-  border: 3px solid #B23B3B;
+  border: 3px solid #016101;
   width: 554px;
   height: 18px;
   margin: 10px 0 0 4px;
 }
 
 #progress {
-  background-color: #fdfdfd;
+  background-color: #0c970c;
   height: 18px;
 }
 
@@ -97,7 +97,7 @@ body {
   transform: translate(-50%, -50%);
   width: 570px;
   height: 190px;
-  background-color: #181818;
+  background-color: #000000;
   font-size: 20px;
   text-align: center;
   padding-top: 20px;
@@ -107,7 +107,7 @@ input {
   width: 300px;
   height: 40px;
   font-size: 16px;
-  border: 1px solid #131313;
+  border: 1px solid #000000;
 }
 
 small {
