@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Helvetica Neue", Helvetica, Arial;
-  background-color: #131313;
+  background-color: #000000;
   color: #B23B3B;
 }
 
@@ -12,14 +12,14 @@ body {
   right: 0;
   bottom: 0;
   left: 0;
-  background-color: #131313;
+  background-color: #522b2b;
 
   /* Fade transition */
-  -webkit-transition: all 0.8s ease-in-out;
-  -moz-transition: all 0.8s ease-in-out;
-  -ms-transition: all 0.8s ease-in-out;
-  -o-transition: all 0.8s ease-in-out;
-  transition: all 0.8s ease-in-out;
+  -webkit-transition: all 2s ease-in-out;
+  -moz-transition: all 2s ease-in-out;
+  -ms-transition: all 2s ease-in-out;
+  -o-transition: all 4s ease-in-out;
+  transition: all 5s ease-in-out;
 }
 
 #message {
@@ -67,7 +67,7 @@ body {
 }
 
 #progress {
-  background-color: #B23B3B;
+  background-color: #fdfdfd;
   height: 18px;
 }
 
@@ -80,7 +80,7 @@ body {
 }
 
 #btns a {
-  color: #B23B3B;
+  color: #ffffff;
   text-decoration: none;
 }
 
